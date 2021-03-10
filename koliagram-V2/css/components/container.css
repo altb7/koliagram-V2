@@ -1,0 +1,32 @@
+.container {
+    width: 1080px;
+    margin: 0px auto;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+@media (max-width: 960px) {
+    /* For a screen <960px, this css will be read */
+    .container {
+        width: 700px;
+    }
+}
+
+}
+@media (max-width: 720px) {
+    .container {
+        width: 550px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 450px;
+    }
+}
+
+
+
+

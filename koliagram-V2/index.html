@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title> Koliagram | Vos réseaux sociaux en pilote automatique 🛫 </title>
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon.ico">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <!-- css -->
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- website banner -->
+
+  <div class="banner">
+    <header>
+      <a href="index.html"><img class="logo" src="images/nouveau-logo-koliagram.png" alt="logo"></a>
+      <!-- checkbox for the responsive menu -->
+      <input type="checkbox" id="chk">
+      <label for="chk" class="show-menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+
+      <div class="menu">
+        <ul class="nav-links">
+          <!-- <li><a href="index.html">Accueil</a></li>
+          <li><a href="#">Koliagram</a></li>
+          <li><a href="#"></a></li>
+          <li><a href="#">Inscription</a></li> -->
+
+          <label for="chk" class="hide-menu-btn"><i class="fas fa-times"></i></label>
+        </ul>
+        <a class="btn-connexion" href="index.html"><button> Accueil </button></a>
+      </div>
+    </header>
+
+    <div class="intro-left">
+      <h1> Entrepreneurs, <br /> confiez-nous vos réseaux. </h1>
+      <h3> Nous nous occupons de vos réseaux sociaux : Facebook, Instagram et Google My Business. </h3>
+      <a class="btn-discover" href="index.html"><button> Site en construction </button></a>
+    </div>
+  </div>
+
+  <!-- end website banner -->
+
+  <!-- they trust us section -->
+
+  <div class="trust-section">
+    <div class="logos">
+      <img src="images/logo-otacos-black.png" class="logo-1">
+      <img src="images/logo-chickenspot-black.png" class="logo-2">
+      <img src="images/logo-wffactory-black.png" class="logo-3">
+      <img src="images/logo-obrooklyn-black.png" class="logo-4">
+    </div>
+  </div>
+
+  <!-- they trust us section -->
+
+
+
+  <!-- testimonial section -->
+
+  <div class="testimonial-section">
+    <div class="inner-width">
+      <h1>Témoignages clients</h1>
+
+      <div class="slides owl-carousel">
+
+        <!-- first testimony card -->
+
+        <div class="testimonial">
+          <div class="test-info">
+            <img class="test-pic" src="images/logo-otacos-black.png" alt="">
+            <div class="test-name">
+              <span>Samir M.</span>
+              Gérant du restaurant O'Tacos Qwartz
+            </div>
+          </div>
+
+          <p>
+            Koliagram nous a permis d'accéder à une communication digitale de qualité sans nous ruiner. Les prestations
+            sont sérieuses et ils nous conseillent énormément sur les actions marketing à mettre en place.
+          </p>
+        </div>
+
+        <!-- second testimony card -->
+
+        <div class="testimonial">
+          <div class="test-info">
+            <img class="test-pic" src="images/logo-obrooklyn-black.png" alt="">
+            <div class="test-name">
+              <span>Sofyan K.</span>
+              Fondateur du O'Brooklyn Gourmet
+            </div>
+          </div>
+
+          <p>
+            Très à l'écoute, les équipes de Koliagram ont bien compris les enjeux de notre activité et nous fournisse
+            les prestations dont nous avons besoin pour être serein sur notre image.
+          </p>
+        </div>
+
+        <!-- third testimony card -->
+
+        <div class="testimonial">
+          <div class="test-info">
+            <img class="test-pic" src="images/logo-otacos-black.png" alt="">
+            <div class="test-name">
+              <span>Gilles R.</span>
+              Multi-franchisé O'Tacos
+            </div>
+          </div>
+
+          <p>
+            Koliagram nous permet de nous soucier uniquement de notre activité. Les réseaux sociaux sont très importants
+            pour notre image, mais nous n'avions pas de temps à leur consacrer. Nous avons donc décidé de faire appel à
+            Koliagram et nous sommes très satisfaits.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+    $(".owl-carousel").owlCarousel({
+      margin: 10,
+      responsiveClass: true,
+      responsive: {
+        0: {
+          items: 1
+        },
+        680: {
+          items: 2
+        },
+        960: {
+          items: 3
+        }
+      }
+    });
+  </script>
+
+  <!-- testimonial section -->
+
+  <!-- pricing table
+
+  <div class="pricing-section">
+
+    <div class="intro-pricing">
+      <h1>Nos Tarifs</h1>
+      <h2>Des prestations de qualité, au prix le plus juste.</h2>
+    </div>
+
+    <div class="pricing-table">
+      <div class="pricing-card">
+        <h3 class="pricing-card-header">Initial</h3>
+        <div class="price">99<span>€/Mois</span></div>
+        <ul>
+          <li>Réponse aux messages sous 24h</li>
+          <li>Publications 3 fois par semaine sur Instagram/Facebook</li>
+          <li>Réponses aux avis Google My Business</li>
+          <li>Séance photo toutes les semaines</li>
+          <li>Websites</li>
+        </ul>
+        <a href="#" class="order-btn">Acheter</a>
+      </div>
+
+      <div class="pricing-card">
+        <h3 class="pricing-card-header">Standard</h3>
+        <div class="price">149.90<span>€/Mois</span></div>
+        <ul>
+          <li>Réponses aux messages sous 24h</li>
+          <li>Publications 3 fois par semaine sur Instagram/Facebook</li>
+          <li>Réponses aux avis Google My Business</li>
+          <li>Séance photo toutes les semaines</li>
+          <li>Websites</li>
+        </ul>
+        <a href="#" class="order-btn">Acheter</a>
+      </div>
+
+
+      <div class="pricing-card">
+        <h3 class="pricing-card-header">Premium</h3>
+        <div class="price">399.90<span>€/Mois</span></div>
+        <ul>
+          <li>Réponses aux messages sous 24h</li>
+          <li>Publications 3 fois par semaine sur Instagram/Facebook</li>
+          <li>Réponses aux avis Google My Business</li>
+          <li>Séance photo toutes les semaines</li>
+          <li>Websites</li>
+        </ul>
+        <a href="#" class="order-btn">Acheter</a>
+      </div>
+    </div>
+  </div>
+
+   end pricing table -->
+
+  <!-- foooter -->
+  <footer>
+
+    <div class="footer-container">
+
+      <div class="left-col">
+        <img src="images/logo-footer-black.png" alt="" class="logo-footer">
+        <div class="social-media">
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="rights-text"> Copyright ©koliagram.com all rights reserved </p>
+      </div>
+
+      <div class="middle-col">
+        <h5 class="plan-site"> Plan du site </h5>
+        <div class="middle-border"></div>
+        <ul class="list-unstyled mb-0">
+          <li><a href="#">Tarifs</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Inscription</a></li>
+        </ul>
+      </div>
+
+      <div class="right-col">
+        <h5 class="plan-site-2"> À propos </h5>
+        <div class="right-border"></div>
+        <ul class="list-unstyled mb-0">
+          <li><a href="#">Koliagram</a></li>
+          <li><a href="#">Confiez-nous vos réseaux sociaux</a></li>
+          <li><a href="#">Contacter nos équipes</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+
+</html>

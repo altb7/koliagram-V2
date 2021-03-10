@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.pricing-section {
+    height: 100vh;
+   /* background-color: #F7F9FC;*/
+
+}
+
+.intro-pricing {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.intro-pricing h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.intro-pricing h2 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.pricing-table {
+    /*background-color: #F7F9FC;*/
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: min(1600px, 100%);
+    margin: auto;
+    margin-top: 0px;
+}
+
+.pricing-card {
+    flex: 1;
+    max-width: 360px;
+    background-color: #fff;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    color: #2d2d2d;
+    transition: .3s linear;
+    border-radius: 5px;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1);
+}
+
+.pricing-card-header {
+    background-color: #f7963e;
+    display: inline-block;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: .4s linear;
+}
+
+.pricing-card:hover .pricing-card-header {
+    box-shadow: 0 0 0 21em #f7963e;
+}
+
+.price{
+    font-size: 35px;
+    color: #f7963e;
+    margin: 20px 0;
+    transition: .2s linear;
+}
+
+.price span {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.pricing-card:hover , .pricing-card:hover .price {
+    color: #fff;
+}
+
+.pricing-card li {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.order-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 2px solid #f7963e;
+    color: #f7963e;
+    padding: 8px 20px;
+    border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: .3s linear;
+}
+
+.order-btn:hover {
+    background-color: #f7963e;
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1100px){
+    .pricing-card{
+        flex: 50%;
+    }
+
+    .pricing-section {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+

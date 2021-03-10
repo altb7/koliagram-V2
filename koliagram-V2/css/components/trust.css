@@ -1,0 +1,60 @@
+.trust-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logo-1 {
+    width: 150px;
+    height: 150px;
+}
+
+.logo-2 {
+    width: 200px;
+    height: 200px;
+}
+
+.logo-3 {
+    width: 200px;
+    height: 200px;
+}
+
+.logo-4 {
+    width: 200px;
+    height: 200px;
+}
+
+@media screen and (max-width: 960px) {
+
+    .trust-section {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .trust-section h1 {
+        padding-top: 30px;
+    }
+    .logos {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo-1 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo-2 {
+        width: 105px;
+        height: 105px;
+    }
+    
+    .logo-3 {
+        width: 100px;
+        height: 100px;
+    }
+
+    .logo-4 {
+        width: 100px;
+        height: 100px;
+    }
+}
